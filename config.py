@@ -17,4 +17,4 @@ db =SQLAlchemy()
 migrate = Migrate(app, db)
 bcrypt = Bcrypt(app)
 db.init_app(app)
-CORS(app)
+app, origins="https://studentportal-yaoq.onrender.com"
