@@ -15,6 +15,7 @@ pyjwt = "*"
 stripe = "*"
 flask-cors = "*"
 psycopg2-binary = "*"
+gunicorn = "*"
 
 [dev-packages]
 
