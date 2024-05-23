@@ -16,7 +16,7 @@ stripe = "*"
 flask-cors = "*"
 psycopg2-binary = "*"
 gunicorn = "*"
-reportlab = "*"
+reportlab==3.6.1
 
 [dev-packages]
 
