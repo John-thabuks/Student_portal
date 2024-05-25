@@ -1,4 +1,4 @@
-from config import app, db,stripe
+from config import app, db
 import stripe
 from flask import jsonify, request, make_response, redirect, url_for,send_file
 from models import Course, Student, Admin, Module, Message
