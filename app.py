@@ -1,5 +1,5 @@
-from config import app, db
-import stripe
+from config import app, db,stripe
+
 from flask import jsonify, request, make_response, redirect, url_for,send_file
 from models import Course, Student, Admin, Module, Message
 import jwt
@@ -13,7 +13,7 @@ from sqlalchemy import and_
 from sqlalchemy.orm import joinedload
 
 
-stripe.api_key = 'sk_test_51PEpckRx876YYvellXk4uZw1hSPwac0nRQKYaCMb5QbYIpbgacTy6xEGf0x6A0JMXdEF17Igg111x9pL5wWFvd7300uTywvxxP'
+
 
 
 # Define your token_required decorator
